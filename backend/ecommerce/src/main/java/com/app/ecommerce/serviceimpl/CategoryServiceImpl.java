@@ -1,5 +1,10 @@
 package com.app.ecommerce.serviceimpl;
 
-public class CategoryServiceImpl {
+import org.springframework.stereotype.Service;
+
+import com.app.ecommerce.service.CategoryService;
+
+@Service
+public class CategoryServiceImpl implements CategoryService{
 
 }
